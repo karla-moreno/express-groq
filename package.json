@@ -1,0 +1,23 @@
+{
+  "name": "express-groq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "watch": "nodemon ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.11.0",
+  "dependencies": {
+    "express": "^5.1.0",
+    "groq-js": "^1.20.0"
+  },
+  "devDependencies": {
+    "groq": "^4.14.2",
+    "nodemon": "^3.1.10"
+  }
+}
